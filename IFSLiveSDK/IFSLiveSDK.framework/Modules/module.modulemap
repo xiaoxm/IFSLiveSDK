@@ -1,6 +1,0 @@
-framework module IFSLiveSDK {
-  umbrella header "IFSLiveSDK.h"
-
-  export *
-  module * { export * }
-}
