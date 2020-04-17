@@ -8,35 +8,30 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IFSLiveSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of IFSLiveSDK.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/786696937@qq.com/IFSLiveSDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.version          = '1.0'
+  s.summary          = '粉丝网直播SDK'
+  s.homepage         = 'https://github.com/xiaoxm/IFSLiveSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '786696937@qq.com' => 'herui@ifensi.com' }
-  s.source           = { :git => 'https://github.com/786696937@qq.com/IFSLiveSDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'herui' => 'herui@ifensi.com' }
+  s.source           = { :git => 'https://github.com/xiaoxm/IFSLiveSDK.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'IFSLiveSDK/Classes/**/*'
+#  s.source_files = 'IFSLiveSDK/Classes/**/*'
+  s.vendored_frameworks = 'IFSLiveSDK/IFSLiveSDK.framework'
   
-  # s.resource_bundles = {
-  #   'IFSLiveSDK' => ['IFSLiveSDK/Assets/*.png']
-  # }
+  s.resource_bundles = {
+      'IFSLiveSDK' => ['IFSLiveSDK/Assets/*.png']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
+  
+  s.dependency 'Masonry', '~> 1.1.0'
+  s.dependency 'SDWebImage', '~> 3.7.2'
+  s.dependency 'MJRefresh', '~> 3.1.15.7'
+  s.dependency 'MJExtension', '~> 3.0.15.1'
+  s.dependency 'ReactiveObjC', '~> 3.1.0'
+  s.dependency 'TXIMSDK_iOS', '~> 4.6.51'
+  s.dependency 'TXLiteAVSDK_Player', '~> 6.8.8000'
+
 end

@@ -1,0 +1,22 @@
+{
+  "name": "IFSLiveSDK",
+  "version": "0.1.0",
+  "summary": "A short description of IFSLiveSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/786696937@qq.com/IFSLiveSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "786696937@qq.com": "herui@ifensi.com"
+  },
+  "source": {
+    "git": "https://github.com/786696937@qq.com/IFSLiveSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "IFSLiveSDK/Classes/**/*"
+}
