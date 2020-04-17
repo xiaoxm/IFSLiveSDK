@@ -7,6 +7,5 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IFSUser.h"
 #import "IFSLiveSDKConfig.h"
 #import "IFSLiveListViewController.h"

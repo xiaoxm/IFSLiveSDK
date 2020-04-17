@@ -6,12 +6,18 @@
 //  Copyright © 2020 ifensi. All rights reserved.
 //
 
+#define IFSLog(...) if([IFSLiveSDKConfig sharedInstance].logEnable) {printf("%s\n", [[NSString stringWithFormat:__VA_ARGS__]UTF8String]);}
+
+
 #import <UIKit/UIKit.h>
 #import "IFSUser.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface IFSLiveSDKConfig : NSObject
+
+@property (nonatomic, assign) BOOL logEnable;
 
 /// 进入直播间之前需要设置用户信息
 @property (nonatomic, strong) IFSUser *user;
@@ -24,5 +30,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)sharedInstance;
 
 @end
+
+
+
+
 
 NS_ASSUME_NONNULL_END
