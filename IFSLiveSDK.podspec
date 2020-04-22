@@ -17,14 +17,21 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-#  s.source_files = 'IFSLiveSDK/Classes/**/*'
-  s.vendored_frameworks = 'IFSLiveSDK/IFSLiveSDK.framework'
+  s.source_files = 'IFSLiveSDK/*.framework/Headers/*.{h}'
+
+  s.vendored_frameworks = 'IFSLiveSDK/*.framework'
   
+  s.public_header_files = 'IFSLiveSDK/IFSLiveSDK.framework/Headers/IFSLiveSDK.h'
+
   s.resource_bundles = {
       'IFSLiveSDK' => ['IFSLiveSDK/Assets/*.png']
   }
+  
+  #TXIMSDK_iOS 这个库不支持i386，所以需要设置
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 armv7s x86_64' }
 
-  s.frameworks = 'UIKit'
+
+  s.frameworks = 'UIKit', 'Foundation'
   
   s.dependency 'Masonry', '~> 1.1.0'
   s.dependency 'SDWebImage', '~> 3.7.2'
