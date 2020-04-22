@@ -10,7 +10,6 @@
 		14B247474774004958F427416F031156 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1503C68A3326CC4BBEA21647DD0E99D0 /* IFSLiveSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE628BE1A0F708B5EBA55092F42C249 /* IFSLiveSDK-dummy.m */; };
 		28F6C34FB782DF37D28C8A1157465FEF /* IFSLiveSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB01C63A3F082ECE0B1878AD54DB2E5 /* IFSLiveSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F7487920721243E0153CEDAE80612DF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CD337BA588AA6B5ED0FB8D7803F07AEA /* ReplaceMe.m */; };
 		76094CBEC10DD10B997306D3C467A8E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		BE82773C0AE77211D78FC57023256BB1 /* Pods-IFSLiveSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B19519DE582EC0C52D649CAA73E7D22 /* Pods-IFSLiveSDK_Example-dummy.m */; };
 		C0808E2B59B8B2C3562BA658C3F2EBBB /* Pods-IFSLiveSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C357A4E59A2E1C6F48AB52F58091409 /* Pods-IFSLiveSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,18 +37,18 @@
 
 /* Begin PBXFileReference section */
 		07880BE4321979F04D53EAE75CECD185 /* Pods-IFSLiveSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFSLiveSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		086FB483B7F265365CE2CE85C63A7CC7 /* IFSLiveSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IFSLiveSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		086FB483B7F265365CE2CE85C63A7CC7 /* IFSLiveSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = IFSLiveSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0B8DEF68F6DF8CF32CD3CCDF5C239EB0 /* Pods-IFSLiveSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFSLiveSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0CE452AA42EFBA112D3D115283ADC2DA /* Pods_IFSLiveSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IFSLiveSDK_Example.framework; path = "Pods-IFSLiveSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CE452AA42EFBA112D3D115283ADC2DA /* Pods_IFSLiveSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IFSLiveSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		109C2075705DE6B46BFAB5D39FB1BFB9 /* Pods-IFSLiveSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFSLiveSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1A8BA5E5B8E85F58ACD731D7CB9A5C14 /* Pods-IFSLiveSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IFSLiveSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1C357A4E59A2E1C6F48AB52F58091409 /* Pods-IFSLiveSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IFSLiveSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		1E919F9CF59913E08FCF1B0859453C2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		29E7C5ED93EA7D1E7390394BC7C1B03E /* Pods_IFSLiveSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IFSLiveSDK_Tests.framework; path = "Pods-IFSLiveSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E919F9CF59913E08FCF1B0859453C2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		29E7C5ED93EA7D1E7390394BC7C1B03E /* Pods_IFSLiveSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IFSLiveSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F019AB69CFF8AD4E9113D7368DCC74 /* Pods-IFSLiveSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IFSLiveSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		46E126E76E547E8ADB127DDD2E99F787 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4ACDA14AD73C628D61E262459B0F99D7 /* IFSLiveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IFSLiveSDK.framework; path = IFSLiveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E126E76E547E8ADB127DDD2E99F787 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4ACDA14AD73C628D61E262459B0F99D7 /* IFSLiveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IFSLiveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE628BE1A0F708B5EBA55092F42C249 /* IFSLiveSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IFSLiveSDK-dummy.m"; sourceTree = "<group>"; };
 		4DEFAE515BC8AF1A0F57E7D2AC230143 /* IFSLiveSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IFSLiveSDK.modulemap; sourceTree = "<group>"; };
 		530DE53EA9AE244955599C9F1C058867 /* IFSLiveSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IFSLiveSDK-Info.plist"; sourceTree = "<group>"; };
@@ -61,10 +60,9 @@
 		7D3A589E3F0A84B0F3A9EE71C7B09BF0 /* Pods-IFSLiveSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IFSLiveSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8B19519DE582EC0C52D649CAA73E7D22 /* Pods-IFSLiveSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IFSLiveSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		953C683B24001061F80A4426BB9C87DE /* Pods-IFSLiveSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IFSLiveSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE96FB8D87B1BB99F1396810672EACD2 /* Pods-IFSLiveSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IFSLiveSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		C5DDE2C71C11FE0D14CCEB0B9898C255 /* IFSLiveSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFSLiveSDK-prefix.pch"; sourceTree = "<group>"; };
-		CD337BA588AA6B5ED0FB8D7803F07AEA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = IFSLiveSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		CEB01C63A3F082ECE0B1878AD54DB2E5 /* IFSLiveSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IFSLiveSDK-umbrella.h"; sourceTree = "<group>"; };
 		EA2A0B648ACC4E0864476E684376CF9C /* Pods-IFSLiveSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IFSLiveSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F09EC44AAAD8A9A16505B238A8AD2294 /* IFSLiveSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IFSLiveSDK.xcconfig; sourceTree = "<group>"; };
@@ -144,7 +142,6 @@
 		62185E89FE10A9D6A5B3332FA506F1F4 /* IFSLiveSDK */ = {
 			isa = PBXGroup;
 			children = (
-				CD337BA588AA6B5ED0FB8D7803F07AEA /* ReplaceMe.m */,
 				1AA887735DE443CB3BD05B482ED6F3FB /* Pod */,
 				4417D0226094F36DBD3EA593CE6A97EF /* Support Files */,
 			);
@@ -382,7 +379,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1503C68A3326CC4BBEA21647DD0E99D0 /* IFSLiveSDK-dummy.m in Sources */,
-				6F7487920721243E0153CEDAE80612DF /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,8 +486,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
