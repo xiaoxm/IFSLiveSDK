@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IFSLiveSDK'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '粉丝网直播SDK'
   s.homepage         = 'https://github.com/xiaoxm/IFSLiveSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
